@@ -17,7 +17,7 @@ services:
   chatgpt-next-web-proxy: 
     profiles: ["proxy"]
     container_name: chatgpt-next-web-proxy
-    image: aikocuyt/chatgpt-next-web
+    image: aikocute/chatgpt-next-web
     ports:
       - 3000:3000
     environment:
